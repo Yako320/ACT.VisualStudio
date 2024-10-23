@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\hundirLaFlotaSOL\hundirLaFlotaSOL\hundirLaFlota\main.cpp(6,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\hundirLaFlotaSOL\hundirLaFlotaSOL\hundirLaFlota\main.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  hundirLaFlota.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\hundirLaFlotaSOL\hundirLaFlotaSOL\x64\Debug\hundirLaFlota.exe
