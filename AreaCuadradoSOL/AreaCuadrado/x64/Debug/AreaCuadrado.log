@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\AreaCuadradoSOL\AreaCuadrado\main.cpp(49,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  AreaCuadrado.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\AreaCuadradoSOL\x64\Debug\AreaCuadrado.exe

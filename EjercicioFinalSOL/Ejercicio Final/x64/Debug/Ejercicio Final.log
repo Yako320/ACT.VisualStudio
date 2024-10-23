@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\EjercicioFinalSOL\Ejercicio Final\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\EjercicioFinalSOL\Ejercicio Final\main.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\EjercicioFinalSOL\Ejercicio Final\main.cpp(5,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\EjercicioFinalSOL\Ejercicio Final\main.cpp(33,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Ejercicio Final.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\EjercicioFinalSOL\x64\Debug\Ejercicio Final.exe

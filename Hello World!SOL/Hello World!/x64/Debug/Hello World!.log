@@ -1,0 +1,2 @@
+﻿Nom.obj : error LNK2005: main already defined in Main.obj
+C:\Users\AlejandroDiMisciaBar\Documents\Act Visual Studio\Hello World!SOL\x64\Debug\Hello World!.exe : fatal error LNK1169: one or more multiply defined symbols found
