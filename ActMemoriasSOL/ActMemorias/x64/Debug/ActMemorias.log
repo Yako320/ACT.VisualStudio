@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ActMemoriasSOL\ActMemorias\main.cpp(140,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ActMemorias.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ActMemoriasSOL\x64\Debug\ActMemorias.exe
