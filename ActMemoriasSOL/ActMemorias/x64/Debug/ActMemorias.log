@@ -1,3 +1,4 @@
 ﻿  main.cpp
-C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ActMemoriasSOL\ActMemorias\main.cpp(140,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ActMemoriasSOL\ActMemorias\main.cpp(204,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ActMemoriasSOL\ActMemorias\main.cpp(226,38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   ActMemorias.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ActMemoriasSOL\x64\Debug\ActMemorias.exe

@@ -3,6 +3,7 @@
 #include <queue>
 #include <stack>
 #include <vector>
+#include <list>
 
 /*void main() {
 
@@ -136,7 +137,8 @@
         std::cout << numeros[i];
     }
 }*/
-void main()
+
+/*void main()
 {
     std::vector <short> numeros;
     short numero = 0;
@@ -161,5 +163,84 @@ void main()
     }
     for (int i = 0; i < numeros.size(); i++) {
         std::cout << numeros[i];
+    }
+}*/
+
+/*void main()
+{
+    int numero = 0;
+    int variable1 = numero;
+    int* variable2 = &variable1;
+    int* variable3 = variable2;
+
+    std::cout << "Introduce un numero: " << std::endl;
+    std::cin >> numero;
+    variable1 = numero;
+
+    std::cout << "Introduce un numero para cambiar el anterior: " << std::endl;
+    std::cin >> numero;
+    *variable3 = numero;
+
+    std::cout << "Numero1: " << variable1 << std::endl;
+    std::cout << "Numero2: " << *variable2 << std::endl;
+    std::cout << "Numero3: " << *variable3 << std::endl;
+}*/
+
+/*void main()
+{
+    std::list<int> numeros;
+    std::list<int>::iterator it = numeros.begin();
+    numeros.push_back(7);
+    numeros.push_front(8);
+    numeros.push_back(9);
+    numeros.push_front(2);
+
+    for (std::list<int>::iterator it = numeros.begin(); it != numeros.end(); it = std::next(it)) {
+        std::cout << *it << std::endl;
+    }
+}*/
+
+void main()
+{
+    std::list<int> numeros = { 1, 2, 3, 4, 5 };
+    int numero = 0;
+    bool rompeBucle = false;
+
+    std::cout << "introduce numeros hasta parar con el -1:" << std::endl;
+
+    while (!rompeBucle) {
+        std::cin >> numero;
+        if (numero == -1)
+        {
+            rompeBucle = true;
+        }
+        else
+        {
+            int posicion;
+            std::cout << "Introduce la posicion para introducirlo (0 para inicio): ";
+            std::cin >> posicion;
+
+            std::list<int>::iterator it = numeros.begin();
+            int limite = posicion;
+            if (posicion >= numeros.size()) {
+                limite = numeros.size();
+            }
+            for (int i = 0; i < limite; ++i) {
+                ++it;
+            }
+            numeros.insert(it, numero);
+        }
+    }
+    int posicionConsulta;
+    std::cout << "Introduce una posicion para ver el valor en la lista: ";
+    std::cin >> posicionConsulta;
+
+    if (posicionConsulta >= 0 && posicionConsulta < numeros.size()) {
+        std::list<int>::iterator it = numeros.begin();
+        std::advance(it, posicionConsulta);
+        std::cout << "Valor en la posicion " << posicionConsulta << " es: " << *it << std::endl;
+    }
+    else {
+        std::cout << "Posicion incorrecta." << std::endl;
     }
 }
