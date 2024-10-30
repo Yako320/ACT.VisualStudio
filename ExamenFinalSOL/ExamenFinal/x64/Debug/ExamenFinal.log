@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ExamenFinalSOL\ExamenFinal\main.cpp(33,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ExamenFinalSOL\ExamenFinal\main.cpp(49,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ExamenFinalSOL\ExamenFinal\main.cpp(75,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ExamenFinal.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\ExamenFinalSOL\x64\Debug\ExamenFinal.exe
