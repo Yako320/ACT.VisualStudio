@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\UF2Act1SOL\UF2Act1\main.cpp(108,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  MathLibrary.cpp
+  Generating Code...
+  UF2Act1.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\UF2Act1SOL\x64\Debug\UF2Act1.exe
