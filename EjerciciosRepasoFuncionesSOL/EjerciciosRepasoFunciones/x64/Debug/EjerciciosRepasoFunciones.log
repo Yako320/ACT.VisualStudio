@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\EjerciciosRepasoFuncionesSOL\EjerciciosRepasoFunciones\main.cpp(103,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\EjerciciosRepasoFuncionesSOL\EjerciciosRepasoFunciones\main.cpp(105,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\EjerciciosRepasoFuncionesSOL\EjerciciosRepasoFunciones\main.cpp(107,2): error C3861: 'pregunta1': identifier not found
