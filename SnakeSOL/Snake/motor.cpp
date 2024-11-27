@@ -3,6 +3,6 @@
 #include "keyboard.h"
 #include "utils.h"
 
-int posX = tableroX / 2;
-int posY = tableroY / 2;
+//int posX = tableroX / 2;
+//int posY = tableroY / 2;
 

@@ -8,6 +8,12 @@
 #include "ConstValues.h"
 #include "tablero.h"
 #include "utils.h"
+#include "motor.h"
+
+
+int posX = tableroX / 2;
+int posY = tableroY / 2;
+
 
 void main() {
 
@@ -17,10 +23,16 @@ void main() {
 
     inicializarTablero(tablero);
 
+    char cabezaSerpiente = 'X';
+
     //While game is not over execute game loop
     while (!bGameOver) {
         system("cls");
+        
+        tablero[posX][posY] = cabezaSerpiente;
         mostrarTablero(tablero);
+
+        std::cout << posX << std::endl << posY;
         //Sleep main thread to control game speed execution
         std::this_thread::sleep_for(std::chrono::milliseconds(FRAME_RATE));
     }

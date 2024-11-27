@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClInclude Include="ConstValues.h" />
     <ClInclude Include="keyboard.h" />
+    <ClInclude Include="motor.h" />
     <ClInclude Include="tablero.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
