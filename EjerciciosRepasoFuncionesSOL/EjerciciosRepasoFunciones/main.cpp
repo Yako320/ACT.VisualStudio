@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-const int maxPreguntas = 10;
+/*const int maxPreguntas = 10;
 const int maxOpciones = 4;
 int userPuntuation = 0;
 
@@ -57,4 +57,61 @@ void {
         std::cout << "Que respuesta das?:";
         std::cin >> userImput;
     }
+}*/
+
+/*int suma(int numero1, int numero2) {
+    int resultadoSuma = numero1 + numero2;
+    return resultadoSuma;
+}
+
+int suma(int numero1, int numero2, int numero3) {
+    int resultadoSuma = numero1 + numero2 + numero3;
+    return resultadoSuma;
+}
+
+float suma(float numero1, float numero2) {
+    double resultadoSuma = numero1 + numero2;
+    return resultadoSuma;
+}
+
+int main() {
+    int numero1, numero2, numero3;
+    float numero1d, numero2d;
+
+    numero1 = 2;
+    numero2 = 3;
+    numero3 = 7;
+
+    numero1d = 2.5;
+    numero2d = 5.6;
+
+    std::cout << suma(numero1, numero2);
+}*/
+
+/*void recursividad(int numero1) {
+    if (numero1 != 0) {
+        std::cout << numero1 << std::endl;
+        recursividad(numero1 - 1);
+    }
+}
+
+void main() {
+    int numero = 7;
+    recursividad(numero);
+}*/
+
+unsigned long long factorial(int numero1) {
+    if (numero1 == 1) {
+        return 1;
+    }
+    else {
+        return numero1 * factorial(numero1 - 1);
+    }
+}
+
+void main() {
+    int numero = 7;
+    unsigned long long resultado = factorial(numero);
+
+    std::cout << resultado;
 }

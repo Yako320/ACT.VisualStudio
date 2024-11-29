@@ -1,2 +1,5 @@
-﻿  motor.cpp
+﻿  main.cpp
+C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\SnakeSOL\Snake\main.cpp(16,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  motor.cpp
+  Generating Code...
   Snake.vcxproj -> C:\Users\AlejandroDiMisciaBar\Documents\GitHub\ACT.VisualStudio\SnakeSOL\x64\Debug\Snake.exe
