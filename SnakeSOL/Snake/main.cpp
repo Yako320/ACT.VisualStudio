@@ -6,7 +6,6 @@
 #include "ConstValues.h"
 #include "keyboard.h"
 #include "ConstValues.h"
-#include "tablero.h"
 #include "utils.h"
 #include "motor.h"
 

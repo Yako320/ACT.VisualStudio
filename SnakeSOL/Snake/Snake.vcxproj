@@ -130,13 +130,11 @@
     <ClCompile Include="keyboard.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="motor.cpp" />
-    <ClCompile Include="tablero.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConstValues.h" />
     <ClInclude Include="keyboard.h" />
     <ClInclude Include="motor.h" />
-    <ClInclude Include="tablero.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

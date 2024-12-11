@@ -21,9 +21,6 @@
     <ClCompile Include="keyboard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tablero.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="motor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -33,9 +30,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ConstValues.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="tablero.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="utils.h">

@@ -1,17 +1,59 @@
-#include "tablero.h"
 #include "ConstValues.h"
 #include "keyboard.h"
 #include "utils.h"
 #include <time.h>
-#include "tablero.h"
+#include <iostream>
 
-void fruitSpawn() {
-	srand(time(0));
+void inicializarTablero(char tablero[tableroX][tableroY]) {
+	for (int i = 0; i < tableroX; i++) {
+		for (int j = 0; j < tableroY; j++) {
+			if (i == 0 || i == tableroX - 1 || j == 0 || j == tableroY - 1) {
+				if (i == 0 || i == tableroX - 1) {
+					tablero[i][j] = '-';
+				}
+				else {
+					tablero[i][j] = '|';
+				}
+			}
+			else {
+				tablero[i][j] = ' ';
+			}
+		}
+	}
+}
 
-	int frutaX = rand() % tableroX - 1;
-	int frutaY = rand() % tableroY - 1;
+void mostrarTablero(char tablero[tableroX][tableroY]) {
+	for (int i = 0; i < tableroX; i++) {
+		for (int j = 0; j < tableroY; j++) {
+			std::cout << tablero[i][j];
+		}
+		std::cout << std::endl;
+	}
+}
 
-	if (tablero[frutaX][frutaY] == X || tablero[frutaX][frutaY] == x) {
-
+void updateInputs(inputs input) {
+	if (IsWPressed()) {
+		input.a = false;
+		input.s = false;
+		input.d = false;
+		input.w = true;
+	}
+	else if (IsAPressed()) {
+		input.w = false;
+		input.s = false;
+		input.d = false;
+		input.a = true;
+	}
+	else if (IsSPressed()) {
+		input.w = false;
+		input.a = false;
+		input.d = false;
+		input.s = true;
+	}
+	else if (IsDPressed()) {
+		input.w = false;
+		input.a = false;
+		input.s = false;
+		input.d = true;
 	}
 }
